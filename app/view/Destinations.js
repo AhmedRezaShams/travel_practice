@@ -17,31 +17,30 @@ function Destinations() {
             </div>
 
             <div className='pt-6 grid grid-cols-12 gap-4'>
-                <div className=' flex col-span-6  '>
+                <div className=' col-span-6  '>
                     <DestinationsComp text='Maldives' width='573' imagePath='/maldives.png' />
                 </div>
-                <div  className=' flex col-span-6  '>
-                    <DestinationsComp text='Maldives' width='573' imagePath='/indonesia.png' />
+                <div className=' col-span-6  '>
+                    <DestinationsComp text='Indonesia' width='573' imagePath='/indonesia.png' />
 
                 </div>
 
-                <div className=' flex col-span-4  '>
-                    <DestinationsComp text='Maldives' width='573' imagePath='/srilanka.png' />
+                <div className=' col-span-4'>
+                    <DestinationsComp text='Srilanka' width='573' imagePath='/srilanka.png' />
                 </div>
-                <div className=' flex col-span-4  '>
-                    <DestinationsComp text='Maldives' width='573' imagePath='/northAmerica.png' />
+                <div className=' col-span-4'>
+                    <DestinationsComp text='North America' width='573' imagePath='/northAmerica.png' />
 
                 </div>
-                <div  className=' flex col-span-4  '>
-                    <DestinationsComp text='Maldives' width='573' imagePath='/kashmir.png' />
+                <div className='col-span-4'>
+                    <DestinationsComp text='Kashmir' width='573' imagePath='/kashmir.png' />
                 </div>
-                <div  className=' flex col-span-5'>
-                    <DestinationsComp text='Maldives' width='573' imagePath='/bd.png' />
+                <div className=' col-span-5 '>
+                    <DestinationsComp text='Bangladesh' width='573' imagePath='/bd.png' />
 
                 </div>
-                <div className='flex col-span-7'>
-
-                    <DestinationsComp text='Maldives' width='573' imagePath='/bandarban.png' />
+                <div className=' col-span-7 '>
+                    <DestinationsComp text='Bandarban' width='573' imagePath='/bandarban.png' />
                 </div>
             </div>
             <div />

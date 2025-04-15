@@ -9,11 +9,10 @@ function DestinationsComp(
   }
 ) {
     return (
-        <div className={`relative h-[300px] w-[${width}] px-2`}>
+        <div className={`relative min-h-80 w-[${width}] px-2`}>
             <Image
                 src={imagePath}
-                height={300}
-                width={parseInt(width)}
+                fill
                 alt="Picture of the author"
                 className='opacity-80 rounded-2xl bg-linear-90'
             />
