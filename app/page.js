@@ -3,6 +3,9 @@ import Header from "./view/Header";
 import Hero from "./view/Hero";
 import PopularTours from "./view/PopularTours";
 import Destinations from "./view/Destinations";
+import WhyUs from "./view/WhyUs";
+import Deals_discounts from "@/components/deals_discounts";
+import Deals from "./view/Deals";
 
 export default function Home() {
   return (
@@ -11,6 +14,8 @@ export default function Home() {
       <Hero />
       <PopularTours />
       <Destinations/>
+      <WhyUs/>
+      <Deals/>
       
     </div>
 
