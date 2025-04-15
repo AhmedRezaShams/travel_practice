@@ -5,7 +5,7 @@ import Colors from 'G:/travel_web/utils/colors.js'
 
 function Header() {
     return (
-        <div className='flex px-32 py-12 justify-between'>
+        <div className='flex  py-12 justify-between content-between'>
             <div className='flex items-center'>
                 <Image
                     src="/tracelicon.png"

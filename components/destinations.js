@@ -1,0 +1,29 @@
+import React from 'react'
+import Image from "next/image";
+
+function DestinationsComp(
+  {
+    width = '',
+    text = "",
+    imagePath = ""
+  }
+) {
+    return (
+        <div className={`relative h-[300px] w-[${width}] px-2`}>
+            <Image
+                src={imagePath}
+                height={300}
+                width={parseInt(width)}
+                alt="Picture of the author"
+                className='opacity-80 rounded-2xl bg-linear-90'
+            />
+            <div className={`absolute inset-0 items-center content-center w-[${width}]`}>
+                <h1 className='text-2xl font-extrabold text-center  text-white'>
+                    {text}
+                </h1>
+            </div>
+        </div>
+    )
+}
+
+export default DestinationsComp

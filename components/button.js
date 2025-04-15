@@ -6,8 +6,8 @@ import Image from 'next/image'; // Import Image for better optimization
 export default function IconButton({
   icon,
   text,
-  height = 'h-12',
-  width = 'w-30',
+  height = '',
+  width = '',
   onClick,
   className = '',
 }) {
